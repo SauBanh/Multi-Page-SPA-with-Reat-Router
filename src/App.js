@@ -1,7 +1,11 @@
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import Home from './pages/home';
+
+const router = createBrowserRouter([{ path: '/', element: <Home /> }]);
+
 function App() {
-  return <div>
-    Nguyễn Tuấn Anh đẹp trai
-  </div>;
+    return <RouterProvider router={router} />;
 }
 
 export default App;

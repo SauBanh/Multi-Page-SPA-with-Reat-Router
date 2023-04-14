@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 function Home() {
     const navigate = useNavigate();
@@ -11,6 +11,7 @@ function Home() {
     return (
         <>
             <div>Home</div>
+            go to<Link to="/products">Page Home</Link>
             <button onClick={navigateHandler}>Navigat</button>
         </>
     );

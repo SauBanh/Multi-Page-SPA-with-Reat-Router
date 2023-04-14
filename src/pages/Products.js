@@ -5,7 +5,11 @@ function Products() {
     return (
         <div>
             <div>Products</div>
-            go to<Link to="/">Page Home</Link>
+            <ul>
+                <li>Product 1</li>
+                <li>Product 2</li>
+                <li>Product 3</li>
+            </ul>
         </div>
     );
 }

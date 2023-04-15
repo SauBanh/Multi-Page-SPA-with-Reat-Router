@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
             <div>Home</div>
-            go to<Link to="/products">Page Home</Link>
+            go to<Link to="/products">Page Products</Link>
             <button onClick={navigateHandler}>Navigat</button>
         </>
     );

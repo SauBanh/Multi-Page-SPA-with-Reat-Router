@@ -7,7 +7,7 @@ function RootLayout() {
     return (
         <>
             <MainNavigation />
-            <main>
+            <main style={{ textAlign: 'center' }}>
                 <Outlet />
             </main>
         </>
